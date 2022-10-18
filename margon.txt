@@ -1,0 +1,31 @@
+Margon Bank source code is developed in PHP, HTML, JavaScript, and MySQL database. This complete banking portal provides a kind of real banking services that gives you complete control over all your banking demands online. This project was initially developed for an undergraduate school project, but over time, other banking features had been added base on student demands. It is now suitable for postgraduate level.
+
+A full functional online banking web application that ensures a registered user to enjoy banking online. This Online Banking is a web application where user can transfer money to other users and can have a close watch on all their transactions. The most interesting thing about the coding behind this Margon Bank is that it is well simplified; we used the HTML and PHP comment syntax almost all the lines of code for easy understanding. So it is no just about viewing the codes but understanding the whole instructions and being able to manipulate it.
+
+This script was built in a way you can easily add any types of template to the front end, all that is required is little HTML knowledge or WordPress for those that love WordPress Theme.
+
+
+Features of Margon Banking Script 
+
+100% guarantee on Deceptive Sites Issues
+
+1. 5.6, 7.1, 7.2 + php version
+2. PHPMailer Inside (100% Email Notification Guarantee)
+3. World Wide SMS with Twilo SMS API
+4. Activate or Deactivate COT, IMF Code for Customers
+5. 3 Transfer Method, Interbank transfer, Domestic Transfer and Wire Transfer
+6. Portal Account Statement the Printing Option
+7. Account Activation Email and SMS Notification
+8. Credit Alert Email and SMS Notification
+9. Debit Alert Email and SMS Notificate
+10. OTP Email and SMS Notification
+11. Internal Support Ticket for Communications
+12. Edit Customer Profile information
+13. Upload Profile picture for Customers from Admin
+14. Users can upload their profile pictures
+15. 2 FActor Login Authentications for Customers
+16. 100 Percent Mobile Responsive with Latest Fonts icons
+17. Admin can View Customer Login Credentials
+18. Admin can edit customer information and change users password
+19. Different Transactions status (Successful, On-hold, declined, pending e.t.c)
+20. Admin can add transaction history for users

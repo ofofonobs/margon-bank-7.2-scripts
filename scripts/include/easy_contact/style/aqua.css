@@ -1,0 +1,159 @@
+		body {
+		    font-family: "Lucida Grande","Lucida Sans Unicode",Arial,sans-serif;
+		    color: #404040;
+		    font-size: 13px;
+		    background-color : #EFEFEF;
+		}
+
+		 #contactForm
+		 {
+		 	margin: 70px auto;
+		 	max-width: 585px;
+	    		min-width: 200px;
+		 }
+		textarea, input, select {
+			padding: 4px; 
+			background-color : #EEE;
+			font-family: "Lucida Grande","Lucida Sans Unicode",Arial,sans-serif;
+		    	color: #404040;
+		    	font-size: 13px;
+		    	border: 1px solid #AAA;
+		}
+		textarea:focus, input:focus, select:focus {
+			background-color : #FFF;
+		    	border: 1px solid #78AFE6;
+		    	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(82, 168, 236, 0.6);
+		}
+		label{
+		    
+		    display: inline-block;
+		    width: 150px;
+		    float: left;
+		    margin: 6px 0px;
+		}
+		div {
+			margin-bottom: 10px;
+		
+		}
+		#submit {
+			background-color : #539CE6;
+			border: 1px solid #CCC;
+			color: white;
+			padding: 6px 8px;
+		}
+		#submit:hover {
+			background-color : #78AFE6
+		}
+		
+		.line {
+			border-top: 1px solid #CCC;
+			max-width: 800px;
+			margin: 17px 0px;
+		}
+		
+		
+		.header{
+			color: black;
+			background-color: white;
+			padding: 12px 20px;
+			margin: 0;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+			border-top: 3px solid rgba(0, 147, 255, 1);
+			border-bottom: 1px solid rgba(0, 147, 255, 1);
+			
+			box-shadow: 0px -1px 3px rgba(0, 147, 255, 0.26);
+		}
+		.body {
+			padding: 18px 55px;
+			border-top: 0px;
+			background-color : #FFF;
+			box-shadow: 0px -1px 3px rgba(0, 147, 255, 0.26);
+			border-bottom: 3px solid rgba(0, 147, 255, 1);
+		}
+		#captchaImg {
+			margin: 3px auto -7px;
+		}
+		
+		#successMessage {
+			border: 1px solid #85C04D;
+			background: url('../img/success_check.png') no-repeat scroll 7px 50%;
+			background-color: #C7FFC7;
+			background-size: 15px 15px;
+			color: black;
+			padding: 4px 30px;
+			font-size: 12px;
+			margin-bottom: 12px;
+			border-radius: 4px;
+			text-shadow: 1px 1px 0px #FDE6E4;
+			
+		}
+		.errorText {
+			color: black;
+			font-size: 12px;
+			margin-left: 150px;
+			margin-top: 4px;
+			margin-bottom: 12px;
+			padding: 3px 29px;
+			max-width: 208px;
+			background: url('../img/error.gif') no-repeat scroll 7px 50% / 15px 15px rgba(248, 198, 198, 1);
+			border: 1px solid rgba(233, 132, 132, 1);
+			border-radius: 4px;
+			text-shadow: 1px 1px 0px #FDE6E4;
+		}
+		.errorAst {
+			color: red;
+			float: left;
+			position: absolute;
+			margin-left: -11px;
+		}
+		#genCaptcha {
+			margin-top: 10px;
+		}
+		.desc {
+			color:black;
+			line-height: 23px;
+			font-size: 15px;
+			box-shadow: 0px 0px 3px rgba(0, 156, 255, 0.44);
+			padding: 9px;
+		}
+		.field {
+			display: inline-block;
+			width: 100%;
+		}
+		.res {
+			width: 260px;
+		}
+		
+		input[type="checkbox"], input[type="radio"]{		
+			margin-top: 12px;
+			margin-right: 5px;
+		}
+		
+		.fileUploadDesc {
+			font-size: 11px;
+			font-style: italic;
+			margin-left: 150px;
+		}
+		
+		@media only screen and (min-width: 0px) and (max-width: 800px) {
+			.res {
+				width: 100%;
+			}
+			
+			.fileUploadDesc {
+				font-size: 11px;
+				font-style: italic;
+				margin-left: 0px !important;
+			}
+			
+			#contactForm {
+			 	width: 98% !important;
+				max-width: none !important;
+			}
+			
+			.errorText {
+				margin-left: 0px !important;
+			}
+		}
+	
